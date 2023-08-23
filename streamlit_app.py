@@ -47,7 +47,7 @@ except URLError as e:
 #my_cur.execute("SELECT * from fruit_load_list")
 #my_data_rows = my_cur.fetchall()
 
-streamlit.header("View Our Fruit List - Add Your Favorites!:")
+streamlit.header("View Our Fruit List - Add Your Favorites!")
 #Snowflake-Related functions
 def get_fruit_load_list():
         with my_cnx.cursor() as my_cur:            
